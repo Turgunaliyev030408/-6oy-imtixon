@@ -1,0 +1,191 @@
+/* manrope-300 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/manrope-v14-cyrillic_latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v14-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v14-cyrillic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v14-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v14-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* manrope-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/manrope-v14-cyrillic_latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "manrope", sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  line-height: 1.625rem;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  min-width: 1291px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.btn {
+  background-image: linear-gradient(115.11deg, #ffbc2a 16.38%, #ff4f39 95.45%);
+  padding: 1.4rem 3.8rem 1.4rem 4.2rem;
+  border-radius: 25rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+main {
+  flex-grow: 1;
+  background-color: #f7f6ff;
+}
+
+.header {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  box-shadow: 0px 4px 18px 0px #00000014;
+  background-image: #fff;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+}
+.site-logo {
+}
+.site-logo-image {
+}
+.sitenav {
+}
+.sitenav-list {
+  display: flex;
+  gap: 3.3rem;
+}
+.sitenav-item {
+}
+.sitenav-link{
+    color: #333;
+  font-weight: 500
+}
+.header-link {
+  
+}
+
+
+
+.footer-top {
+  background-color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 6.3rem;
+}
+.footer-top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-content .site-logo {
+  margin-bottom: 5px;
+}
+
+.footer-content-link {
+  color: #333333;
+  margin-bottom: 2.2rem;
+  text-decoration: underline;
+}
+.footer-content .header-link {
+  align-self: flex-start;
+}
+.footer-content-title {
+  font-size: 1.6rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1.3rem;
+}
+.footer-content-item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.footer-content-navlink {
+  color: #333333;
+}
+.footer-bottom {
+  background-color: black;
+}
+.footer-bottom-text {
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
